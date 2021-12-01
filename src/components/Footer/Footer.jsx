@@ -23,6 +23,7 @@ const Footer = () => {
           {networks &&
             networks.map((network) => {
               const { id, name, url } = network;
+              console.log(name);
               return (
                 <a
                   key={id}

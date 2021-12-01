@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'me.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,31 +28,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'burrows.jpg',
+    title: 'Burrows Delta Study',
+    info: 'June 2020 - August 2020',
+    info2: 'Conducted initial research and experiments involving Authorship Attribution. Worked on modifying feature selection of the Burrows Delta algorithm to see effects on classification performanceacross multiple media types (Tweets, Emails, Articles). Developed and wrote pipeline to test and run experiments efficiently',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'chatbot.jpg',
+    title: 'Question Chat Bot',
+    info: 'September 2019 - October 2019',
+    info2: 'Used BaBi dataset, released by Facebook, to train a neural network model that could answer a yes/no question, based on a story the user provided. Utilized Keras to create a function that vectorized sentences, so that they can be read by the model.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/andyttrinh/Chat-Bot', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+ 
 ];
 
 // CONTACT DATA
@@ -78,7 +70,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/andyttrinh/',
     },
     {
       id: nanoid(),
@@ -92,3 +84,56 @@ export const footerData = {
 export const githubButtons = {
   isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
+
+export const TimeLineData = [
+  {
+    id: 1,
+    title: 'Entered College',
+    company: 'University of Connecticut',
+    location: "Storrs, Connecticut",
+    description: "Entered the University of Connecticut as a Computer Science Major, minoring in Mathematics",
+    buttonText: "View Frontend Projects",
+    date: "August 2019 - present",
+    icon: "school"
+  },
+  {
+    id: 2,
+    title: 'Web Development Specialist',
+    company: 'University of Connecticut',
+    location: "Storrs, Connecticut",
+    description: "Designed, wrote, tested, and implemented web applications for UConn Avery Point’s campus website. Participated in staff committee meetings to discuss the design plan for current or new web pages.",
+    buttonText: "View Frontend Projects",
+    date: "January 2020 - May 2020",
+    icon: "work"
+  },
+  {
+    id: 3,
+    title: 'Research Intern',
+    company: 'Sonalysts Human-Autonomy Interaction Laboratory',
+    location: "Waterford, Connecticut",
+    description: "Led two end-to-end experiments (initial research, experimental design, code implementation, data collection, analysis, and report writing) to explore the effects of feature selection on classification performance of the Burrows Delta algorithm, for Authorship Attribution (AA) across multiple media types.",
+    buttonText: "View Frontend Projects",
+    date: "June 2020 - August 2020",
+    icon: "work"
+  },
+  {
+    id: 4,
+    title: 'Software Engineer Intern',
+    company: 'Sonalysts Human-Autonomy Interaction Laboratory',
+    location: "Waterford, Connecticut",
+    description: "Worked alongside senior software engineers to build multiple web applications involving the usage of React, NodeJS, and mySQL. Wrote javascript code to build the front end and backend of multiple company projects, and built a user interface that dynamically renders data from backend to front end.",
+    buttonText: "View Frontend Projects",
+    date: "June 2021 - August 2021",
+    icon: "work"
+  },
+  {
+    id: 5,
+    title: 'Undergraduate Research Assistant',
+    company: 'University of Connecticut',
+    location: "Storrs, Connecticut",
+    description: "Currently performing GPU and Machine Learning research with Dr. Caiwen Ding of the Department of Computer Science.Developing algorithms in C++ to optimize the node allocation for tasks ran on the Titan supercomputer of Oak Ridge Leadership Computing Facility.",
+    buttonText: "View Frontend Projects",
+    date: "August 2021 - present",
+    icon: "work"
+  }
+];
