@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Trinh | Student', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my Website', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'me.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'My passion for programming can be traced back to middle school, where I was first exposed to it. Whether it be learning a new programming language or using Java to make Minecraft mods, I always knew programming would be a future career for me. In the present, I am currently an honors university student majoring in Computer Science at the University of Connecticut, seeking to enter the industry as a software engineer after graduation.',
+  paragraphTwo: 'Outside of academics, I\'m commited to being a lifetime learner through reading books, travelling, and improving my language skills for countries that I want to visit.',
+  paragraphThree: 'Enjoy looking through the rest of my website, and feel free to contact me if you want to talk!',
+  resume: 'static/Website_Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -51,22 +51,12 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'hello.andytrinh@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
     {
       id: nanoid(),
       name: 'linkedin',
@@ -75,7 +65,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/andyttrinh/',
     },
   ],
 };
